@@ -9,50 +9,48 @@ import SwiftUI
 
 struct Options: View {
     @EnvironmentObject var optionsModelData: OptionsModelData
-    let imageOptionsRange = ["ASCII", "Image"]
-    let optionsRange = [
-        "User",
-        "OS",
-        "Host",
-        "Kernel",
-        "Uptime",
-        "Packages",
-        "Shell",
-        "Resolution",
-        "DE",
-        "VM",
-        "WM Theme",
-        "Terminal",
-        "Terminal Font",
-        "CPU",
-        "GPU",
-        "Memory",
-        "Swatch"
-    ]
     
+    @ViewBuilder
     var body: some View {
         VStack(alignment: .leading) {
             HStack() {
                 Text("IMAGE TYPE: ")
                 Spacer()
-                Picker(selection: $optionsModelData.imageType, label: Text("IMAGE TYPE:")) {
-                    ForEach(0..<imageOptionsRange.count) { index in
-                        Text(self.imageOptionsRange[index].uppercased()).tag(self.imageOptionsRange[index])
+                Picker(selection: $optionsModelData.imageOptions, label: Text("IMAGE TYPE:")) {
+                    ForEach(0..<optionsModelData.imageOptionsRange.count) { index in
+                        Text(optionsModelData.imageOptionsRange[index].uppercased()).tag(optionsModelData.imageOptionsRange[index])
                     }
                 }
                 .pickerStyle(RadioGroupPickerStyle())
                 .labelsHidden()
             }
-            ForEach(0..<optionsRange.count) { index in
+            
+            if optionsModelData.imageOptions == "ASCII" {
+                Text("ASCII PICKER WOULD GO HERE")
+            } else {
+                Text("IMAGE PICKER WOULD GO HERE")
+            }
+            
+            ForEach(Array(optionsModelData.options.keys.sorted(by: <).enumerated()), id:\.element) { _, option in
                 HStack() {
-                    Text(self.optionsRange[index].uppercased())
+                    Text(option.uppercased())
                     Spacer()
-                    Toggle(self.optionsRange[index].uppercased(), isOn: $optionsModelData.options[index])
+                    Toggle(option.uppercased(), isOn: $optionsModelData.options[option].onNone(false))
                         .toggleStyle(SwitchToggleStyle())
                         .labelsHidden()
                 }
             }
             
+        }
+    }
+}
+
+extension Binding where Value == Bool? {
+    func onNone(_ fallback: Bool) -> Binding<Bool> {
+        return Binding<Bool>(get: {
+            return self.wrappedValue ?? fallback
+        }) { value in
+            self.wrappedValue = value
         }
     }
 }
