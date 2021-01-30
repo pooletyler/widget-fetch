@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4915561C25C4D9A0004813BD /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915561B25C4D9A0004813BD /* CustomToggle.swift */; };
+		4915562525C4DAA1004813BD /* CustomToggle.styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915562425C4DAA1004813BD /* CustomToggle.styles.swift */; };
+		4915562B25C4DE2D004813BD /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915562A25C4DE2D004813BD /* CustomPicker.swift */; };
+		4915562F25C4DF5D004813BD /* CustomPicker.styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915562E25C4DF5D004813BD /* CustomPicker.styles.swift */; };
+		4915563325C4E041004813BD /* CustomPicker.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915563225C4E041004813BD /* CustomPicker.previews.swift */; };
+		4915563725C4E07A004813BD /* CustomToggle.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915563625C4E07A004813BD /* CustomToggle.previews.swift */; };
+		4915563C25C4E156004813BD /* Options.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915563B25C4E156004813BD /* Options.previews.swift */; };
+		4915564425C4E1D4004813BD /* Binding.extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915564325C4E1D4004813BD /* Binding.extensions.swift */; };
+		4950ABA825C4FA7A00087E18 /* DarkMode.theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950ABA725C4FA7A00087E18 /* DarkMode.theme.swift */; };
+		4950ABAF25C4FD8000087E18 /* Color.extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950ABAE25C4FD8000087E18 /* Color.extensions.swift */; };
 		49B80F9625C3416B00D8021C /* WidgetFetchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80F9525C3416B00D8021C /* WidgetFetchApp.swift */; };
 		49B80F9825C3416B00D8021C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80F9725C3416B00D8021C /* ContentView.swift */; };
 		49B80F9A25C3416B00D8021C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B80F9925C3416B00D8021C /* Assets.xcassets */; };
@@ -19,7 +29,7 @@
 		49B80FB925C3421400D8021C /* WidgetFetchWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 49B80FB325C3421400D8021C /* WidgetFetchWidget.intentdefinition */; };
 		49B80FBC25C3421400D8021C /* WidgetFetchWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49B80FAA25C3421400D8021C /* WidgetFetchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		49B80FD825C3443700D8021C /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80FD725C3443700D8021C /* Options.swift */; };
-		49B80FDE25C3460300D8021C /* OptionsModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80FDD25C3460300D8021C /* OptionsModelData.swift */; };
+		49B80FDE25C3460300D8021C /* Options.observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80FDD25C3460300D8021C /* Options.observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4915561B25C4D9A0004813BD /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		4915562425C4DAA1004813BD /* CustomToggle.styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.styles.swift; sourceTree = "<group>"; };
+		4915562A25C4DE2D004813BD /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		4915562E25C4DF5D004813BD /* CustomPicker.styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.styles.swift; sourceTree = "<group>"; };
+		4915563225C4E041004813BD /* CustomPicker.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.previews.swift; sourceTree = "<group>"; };
+		4915563625C4E07A004813BD /* CustomToggle.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.previews.swift; sourceTree = "<group>"; };
+		4915563B25C4E156004813BD /* Options.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.previews.swift; sourceTree = "<group>"; };
+		4915564325C4E1D4004813BD /* Binding.extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.extensions.swift; sourceTree = "<group>"; };
+		4950ABA725C4FA7A00087E18 /* DarkMode.theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode.theme.swift; sourceTree = "<group>"; };
+		4950ABAE25C4FD8000087E18 /* Color.extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.extensions.swift; sourceTree = "<group>"; };
 		49B80F9225C3416B00D8021C /* WidgetFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B80F9525C3416B00D8021C /* WidgetFetchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetFetchApp.swift; sourceTree = "<group>"; };
 		49B80F9725C3416B00D8021C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,7 +83,7 @@
 		49B80FB625C3421400D8021C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49B80FB725C3421400D8021C /* WidgetFetchWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetFetchWidget.entitlements; sourceTree = "<group>"; };
 		49B80FD725C3443700D8021C /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
-		49B80FDD25C3460300D8021C /* OptionsModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsModelData.swift; sourceTree = "<group>"; };
+		49B80FDD25C3460300D8021C /* Options.observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +106,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4915561925C4D942004813BD /* CustomToggle */ = {
+			isa = PBXGroup;
+			children = (
+				4915561B25C4D9A0004813BD /* CustomToggle.swift */,
+				4915562425C4DAA1004813BD /* CustomToggle.styles.swift */,
+				4915563625C4E07A004813BD /* CustomToggle.previews.swift */,
+			);
+			path = CustomToggle;
+			sourceTree = "<group>";
+		};
+		4915561A25C4D95B004813BD /* CustomPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4915562A25C4DE2D004813BD /* CustomPicker.swift */,
+				4915562E25C4DF5D004813BD /* CustomPicker.styles.swift */,
+				4915563225C4E041004813BD /* CustomPicker.previews.swift */,
+			);
+			path = CustomPicker;
+			sourceTree = "<group>";
+		};
+		4915562125C4D9AC004813BD /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				49B80FD625C3441500D8021C /* Options */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		4915563A25C4E112004813BD /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				49B80FDD25C3460300D8021C /* Options.observable.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		4915564125C4E1AC004813BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4950ABAD25C4FD6E00087E18 /* Color */,
+				4915564225C4E1C4004813BD /* Binding */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4915564225C4E1C4004813BD /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				4915564325C4E1D4004813BD /* Binding.extensions.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		4950ABA525C4FA5A00087E18 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				4950ABA625C4FA6400087E18 /* Dark Mode */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		4950ABA625C4FA6400087E18 /* Dark Mode */ = {
+			isa = PBXGroup;
+			children = (
+				4950ABA725C4FA7A00087E18 /* DarkMode.theme.swift */,
+			);
+			path = "Dark Mode";
+			sourceTree = "<group>";
+		};
+		4950ABAD25C4FD6E00087E18 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				4950ABAE25C4FD8000087E18 /* Color.extensions.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 		49B80F8925C3416B00D8021C = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +205,9 @@
 		49B80F9425C3416B00D8021C /* WidgetFetch */ = {
 			isa = PBXGroup;
 			children = (
+				4950ABA525C4FA5A00087E18 /* Themes */,
+				4915564125C4E1AC004813BD /* Extensions */,
+				4915562125C4D9AC004813BD /* Containers */,
 				49B80FC325C3421D00D8021C /* Components */,
 				49B80F9525C3416B00D8021C /* WidgetFetchApp.swift */,
 				49B80F9725C3416B00D8021C /* ContentView.swift */,
@@ -152,7 +252,8 @@
 		49B80FC325C3421D00D8021C /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				49B80FD625C3441500D8021C /* Options */,
+				4915561A25C4D95B004813BD /* CustomPicker */,
+				4915561925C4D942004813BD /* CustomToggle */,
 				49B80FCB25C3425300D8021C /* ImagePicker */,
 				49B80FCA25C3424B00D8021C /* ASCIIEditor */,
 			);
@@ -207,8 +308,9 @@
 		49B80FD625C3441500D8021C /* Options */ = {
 			isa = PBXGroup;
 			children = (
+				4915563A25C4E112004813BD /* Observables */,
 				49B80FD725C3443700D8021C /* Options.swift */,
-				49B80FDD25C3460300D8021C /* OptionsModelData.swift */,
+				4915563B25C4E156004813BD /* Options.previews.swift */,
 			);
 			path = Options;
 			sourceTree = "<group>";
@@ -314,9 +416,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B80FD825C3443700D8021C /* Options.swift in Sources */,
+				4915561C25C4D9A0004813BD /* CustomToggle.swift in Sources */,
 				49B80F9825C3416B00D8021C /* ContentView.swift in Sources */,
-				49B80FDE25C3460300D8021C /* OptionsModelData.swift in Sources */,
+				4915562F25C4DF5D004813BD /* CustomPicker.styles.swift in Sources */,
+				4915563325C4E041004813BD /* CustomPicker.previews.swift in Sources */,
+				4915563725C4E07A004813BD /* CustomToggle.previews.swift in Sources */,
+				4915562525C4DAA1004813BD /* CustomToggle.styles.swift in Sources */,
+				4950ABAF25C4FD8000087E18 /* Color.extensions.swift in Sources */,
+				49B80FDE25C3460300D8021C /* Options.observable.swift in Sources */,
+				4915563C25C4E156004813BD /* Options.previews.swift in Sources */,
+				4950ABA825C4FA7A00087E18 /* DarkMode.theme.swift in Sources */,
 				49B80FB925C3421400D8021C /* WidgetFetchWidget.intentdefinition in Sources */,
+				4915564425C4E1D4004813BD /* Binding.extensions.swift in Sources */,
+				4915562B25C4DE2D004813BD /* CustomPicker.swift in Sources */,
 				49B80F9625C3416B00D8021C /* WidgetFetchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
