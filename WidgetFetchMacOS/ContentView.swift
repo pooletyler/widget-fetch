@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  WidgetFetch
+//  WidgetFetchMacOS
 //
 //  Created by Tyler Poole on 1/28/21.
 //

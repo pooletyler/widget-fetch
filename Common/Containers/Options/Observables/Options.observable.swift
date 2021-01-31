@@ -1,6 +1,8 @@
 import Combine
 
 final class OptionsObservableObject: ObservableObject {
+    let IMAGE_STRING : String = "Image"
+    let ASCII_STRING : String = "ASCII"
     let USER_STRING : String = "User"
     let OS_STRING : String = "OS"
     let HOST_STRING : String = "Host"
@@ -13,13 +15,18 @@ final class OptionsObservableObject: ObservableObject {
     let MEMORY_STRING : String = "Memory"
     let SWATCH_STRING : String = "Swatch"
     
-    @Published var imageOptionsRange = ["ASCII", "Image"]
-    @Published var imageSelections: String = "ASCII"
+    @Published var imageOptionsRange: [String]
+    @Published var imageSelections: [String : Bool]
     @Published var optionsRange: [String]
     @Published var optionsIcons: [String : String]
     @Published var optionsSelections: [String : Bool]
     
     init() {
+        self.imageOptionsRange = [ASCII_STRING, IMAGE_STRING]
+        self.imageSelections = [
+            ASCII_STRING : true,
+            IMAGE_STRING : false
+        ]
         self.optionsRange = [
             USER_STRING,
             OS_STRING,

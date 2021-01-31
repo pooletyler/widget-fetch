@@ -11,7 +11,7 @@ struct CustomToggle_Previews: PreviewProvider {
     @State static var isOn = true
     
     static var previews: some View {
-        CustomToggle(isOn: $isOn, label: "Custom Toggle", icon: "questionmark.circle.fill")
+        CustomToggle(isOn: $isOn, label: "Custom Toggle", icon: "questionmark.circle.fill", width: 400)
     }
 }
 

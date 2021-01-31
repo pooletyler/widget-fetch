@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomToggleStyle: ToggleStyle {
-    var color: Color = .green
+    let width: CGFloat
     
     public func makeBody(configuration: CustomToggleStyle.Configuration) -> some View {
         HStack(alignment: .center) {
@@ -25,6 +25,6 @@ struct CustomToggleStyle: ToggleStyle {
                     configuration.isOn.toggle()
                 }
         }
-        .frame(width: 250, height: 30)
+        .frame(width: self.width, height: 30)
     }
 }

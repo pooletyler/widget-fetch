@@ -11,15 +11,16 @@ struct CustomToggle: View {
     @Binding var isOn: Bool
     let label: String
     let icon: String
+    let width: CGFloat
     
     var body: some View {
         HStack() {
             Toggle(isOn: $isOn, label: {
                 Image(systemName: self.icon)
                 Text(self.label)
+                    .bold()
             })
-            .padding()
-            .toggleStyle(CustomToggleStyle())
+            .toggleStyle(CustomToggleStyle(width: self.width))
         }
     }
 }

@@ -10,37 +10,34 @@
 		4915561C25C4D9A0004813BD /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915561B25C4D9A0004813BD /* CustomToggle.swift */; };
 		4915562525C4DAA1004813BD /* CustomToggle.styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915562425C4DAA1004813BD /* CustomToggle.styles.swift */; };
 		4915562B25C4DE2D004813BD /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915562A25C4DE2D004813BD /* CustomPicker.swift */; };
-		4915562F25C4DF5D004813BD /* CustomPicker.styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915562E25C4DF5D004813BD /* CustomPicker.styles.swift */; };
 		4915563325C4E041004813BD /* CustomPicker.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915563225C4E041004813BD /* CustomPicker.previews.swift */; };
 		4915563725C4E07A004813BD /* CustomToggle.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915563625C4E07A004813BD /* CustomToggle.previews.swift */; };
 		4915563C25C4E156004813BD /* Options.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915563B25C4E156004813BD /* Options.previews.swift */; };
 		4915564425C4E1D4004813BD /* Binding.extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915564325C4E1D4004813BD /* Binding.extensions.swift */; };
+		494DBDBF25C70FA900A2824E /* WidgetFetchiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DBDBE25C70FA900A2824E /* WidgetFetchiOSApp.swift */; };
+		494DBDC125C70FA900A2824E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DBDC025C70FA900A2824E /* ContentView.swift */; };
+		494DBDC325C70FA900A2824E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494DBDC225C70FA900A2824E /* Assets.xcassets */; };
+		494DBDC625C70FA900A2824E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494DBDC525C70FA900A2824E /* Preview Assets.xcassets */; };
 		4950ABA825C4FA7A00087E18 /* DarkMode.theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950ABA725C4FA7A00087E18 /* DarkMode.theme.swift */; };
 		4950ABAF25C4FD8000087E18 /* Color.extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950ABAE25C4FD8000087E18 /* Color.extensions.swift */; };
+		49AF722025C7125200D2B8BE /* Color.extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950ABAE25C4FD8000087E18 /* Color.extensions.swift */; };
+		49AF722325C7125900D2B8BE /* Binding.extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915564325C4E1D4004813BD /* Binding.extensions.swift */; };
+		49AF722625C7125F00D2B8BE /* DarkMode.theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950ABA725C4FA7A00087E18 /* DarkMode.theme.swift */; };
+		49AF722925C7126500D2B8BE /* Options.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915563B25C4E156004813BD /* Options.previews.swift */; };
+		49AF722C25C7126800D2B8BE /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80FD725C3443700D8021C /* Options.swift */; };
+		49AF722F25C7126C00D2B8BE /* Options.observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80FDD25C3460300D8021C /* Options.observable.swift */; };
+		49AF723525C7127300D2B8BE /* CustomPicker.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915563225C4E041004813BD /* CustomPicker.previews.swift */; };
+		49AF723825C7127600D2B8BE /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915562A25C4DE2D004813BD /* CustomPicker.swift */; };
+		49AF723B25C7127B00D2B8BE /* CustomToggle.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915563625C4E07A004813BD /* CustomToggle.previews.swift */; };
+		49AF723E25C7127F00D2B8BE /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915561B25C4D9A0004813BD /* CustomToggle.swift */; };
+		49AF724125C7128100D2B8BE /* CustomToggle.styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915562425C4DAA1004813BD /* CustomToggle.styles.swift */; };
 		49B80F9625C3416B00D8021C /* WidgetFetchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80F9525C3416B00D8021C /* WidgetFetchApp.swift */; };
 		49B80F9825C3416B00D8021C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80F9725C3416B00D8021C /* ContentView.swift */; };
 		49B80F9A25C3416B00D8021C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B80F9925C3416B00D8021C /* Assets.xcassets */; };
 		49B80F9D25C3416B00D8021C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B80F9C25C3416B00D8021C /* Preview Assets.xcassets */; };
-		49B80FAD25C3421400D8021C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B80FAC25C3421400D8021C /* WidgetKit.framework */; };
-		49B80FAF25C3421400D8021C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B80FAE25C3421400D8021C /* SwiftUI.framework */; };
-		49B80FB225C3421400D8021C /* WidgetFetchWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80FB125C3421400D8021C /* WidgetFetchWidget.swift */; };
-		49B80FB525C3421400D8021C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B80FB425C3421400D8021C /* Assets.xcassets */; };
-		49B80FB825C3421400D8021C /* WidgetFetchWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 49B80FB325C3421400D8021C /* WidgetFetchWidget.intentdefinition */; };
-		49B80FB925C3421400D8021C /* WidgetFetchWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 49B80FB325C3421400D8021C /* WidgetFetchWidget.intentdefinition */; };
-		49B80FBC25C3421400D8021C /* WidgetFetchWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49B80FAA25C3421400D8021C /* WidgetFetchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		49B80FD825C3443700D8021C /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80FD725C3443700D8021C /* Options.swift */; };
 		49B80FDE25C3460300D8021C /* Options.observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B80FDD25C3460300D8021C /* Options.observable.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		49B80FBA25C3421400D8021C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49B80F8A25C3416B00D8021C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 49B80FA925C3421400D8021C;
-			remoteInfo = WidgetFetchWidgetExtension;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		49B80FC025C3421400D8021C /* Embed App Extensions */ = {
@@ -49,7 +46,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				49B80FBC25C3421400D8021C /* WidgetFetchWidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,46 +56,43 @@
 		4915561B25C4D9A0004813BD /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		4915562425C4DAA1004813BD /* CustomToggle.styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.styles.swift; sourceTree = "<group>"; };
 		4915562A25C4DE2D004813BD /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
-		4915562E25C4DF5D004813BD /* CustomPicker.styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.styles.swift; sourceTree = "<group>"; };
 		4915563225C4E041004813BD /* CustomPicker.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.previews.swift; sourceTree = "<group>"; };
 		4915563625C4E07A004813BD /* CustomToggle.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.previews.swift; sourceTree = "<group>"; };
 		4915563B25C4E156004813BD /* Options.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.previews.swift; sourceTree = "<group>"; };
 		4915564325C4E1D4004813BD /* Binding.extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.extensions.swift; sourceTree = "<group>"; };
+		494DBDBC25C70FA900A2824E /* WidgetFetchiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetFetchiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494DBDBE25C70FA900A2824E /* WidgetFetchiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetFetchiOSApp.swift; sourceTree = "<group>"; };
+		494DBDC025C70FA900A2824E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		494DBDC225C70FA900A2824E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494DBDC525C70FA900A2824E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		494DBDC725C70FA900A2824E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4950ABA725C4FA7A00087E18 /* DarkMode.theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode.theme.swift; sourceTree = "<group>"; };
 		4950ABAE25C4FD8000087E18 /* Color.extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.extensions.swift; sourceTree = "<group>"; };
-		49B80F9225C3416B00D8021C /* WidgetFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B80F9225C3416B00D8021C /* WidgetFetchMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetFetchMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B80F9525C3416B00D8021C /* WidgetFetchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetFetchApp.swift; sourceTree = "<group>"; };
 		49B80F9725C3416B00D8021C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49B80F9925C3416B00D8021C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49B80F9C25C3416B00D8021C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49B80F9E25C3416B00D8021C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49B80F9F25C3416B00D8021C /* WidgetFetch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetFetch.entitlements; sourceTree = "<group>"; };
-		49B80FAA25C3421400D8021C /* WidgetFetchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetFetchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B80FAC25C3421400D8021C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		49B80FAE25C3421400D8021C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		49B80FB125C3421400D8021C /* WidgetFetchWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetFetchWidget.swift; sourceTree = "<group>"; };
-		49B80FB325C3421400D8021C /* WidgetFetchWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetFetchWidget.intentdefinition; sourceTree = "<group>"; };
-		49B80FB425C3421400D8021C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		49B80FB625C3421400D8021C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49B80FB725C3421400D8021C /* WidgetFetchWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetFetchWidget.entitlements; sourceTree = "<group>"; };
 		49B80FD725C3443700D8021C /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
 		49B80FDD25C3460300D8021C /* Options.observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49B80F8F25C3416B00D8021C /* Frameworks */ = {
+		494DBDB925C70FA900A2824E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49B80FA725C3421400D8021C /* Frameworks */ = {
+		49B80F8F25C3416B00D8021C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49B80FAF25C3421400D8021C /* SwiftUI.framework in Frameworks */,
-				49B80FAD25C3421400D8021C /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				4915562A25C4DE2D004813BD /* CustomPicker.swift */,
-				4915562E25C4DF5D004813BD /* CustomPicker.styles.swift */,
 				4915563225C4E041004813BD /* CustomPicker.previews.swift */,
 			);
 			path = CustomPicker;
@@ -159,6 +151,37 @@
 			path = Binding;
 			sourceTree = "<group>";
 		};
+		494DBDBD25C70FA900A2824E /* WidgetFetchiOS */ = {
+			isa = PBXGroup;
+			children = (
+				494DBDBE25C70FA900A2824E /* WidgetFetchiOSApp.swift */,
+				494DBDC025C70FA900A2824E /* ContentView.swift */,
+				494DBDC225C70FA900A2824E /* Assets.xcassets */,
+				494DBDC725C70FA900A2824E /* Info.plist */,
+				494DBDC425C70FA900A2824E /* Preview Content */,
+			);
+			path = WidgetFetchiOS;
+			sourceTree = "<group>";
+		};
+		494DBDC425C70FA900A2824E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				494DBDC525C70FA900A2824E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		494DBDCF25C70FC800A2824E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4950ABA525C4FA5A00087E18 /* Themes */,
+				4915564125C4E1AC004813BD /* Extensions */,
+				4915562125C4D9AC004813BD /* Containers */,
+				49B80FC325C3421D00D8021C /* Components */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		4950ABA525C4FA5A00087E18 /* Themes */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,8 +209,9 @@
 		49B80F8925C3416B00D8021C = {
 			isa = PBXGroup;
 			children = (
-				49B80F9425C3416B00D8021C /* WidgetFetch */,
-				49B80FB025C3421400D8021C /* WidgetFetchWidget */,
+				494DBDCF25C70FC800A2824E /* Common */,
+				49B80F9425C3416B00D8021C /* WidgetFetchMacOS */,
+				494DBDBD25C70FA900A2824E /* WidgetFetchiOS */,
 				49B80FAB25C3421400D8021C /* Frameworks */,
 				49B80F9325C3416B00D8021C /* Products */,
 			);
@@ -196,19 +220,15 @@
 		49B80F9325C3416B00D8021C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49B80F9225C3416B00D8021C /* WidgetFetch.app */,
-				49B80FAA25C3421400D8021C /* WidgetFetchWidgetExtension.appex */,
+				49B80F9225C3416B00D8021C /* WidgetFetchMacOS.app */,
+				494DBDBC25C70FA900A2824E /* WidgetFetchiOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49B80F9425C3416B00D8021C /* WidgetFetch */ = {
+		49B80F9425C3416B00D8021C /* WidgetFetchMacOS */ = {
 			isa = PBXGroup;
 			children = (
-				4950ABA525C4FA5A00087E18 /* Themes */,
-				4915564125C4E1AC004813BD /* Extensions */,
-				4915562125C4D9AC004813BD /* Containers */,
-				49B80FC325C3421D00D8021C /* Components */,
 				49B80F9525C3416B00D8021C /* WidgetFetchApp.swift */,
 				49B80F9725C3416B00D8021C /* ContentView.swift */,
 				49B80F9925C3416B00D8021C /* Assets.xcassets */,
@@ -216,7 +236,7 @@
 				49B80F9F25C3416B00D8021C /* WidgetFetch.entitlements */,
 				49B80F9B25C3416B00D8021C /* Preview Content */,
 			);
-			path = WidgetFetch;
+			path = WidgetFetchMacOS;
 			sourceTree = "<group>";
 		};
 		49B80F9B25C3416B00D8021C /* Preview Content */ = {
@@ -236,19 +256,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		49B80FB025C3421400D8021C /* WidgetFetchWidget */ = {
-			isa = PBXGroup;
-			children = (
-				49B80FC425C3422400D8021C /* Components */,
-				49B80FB125C3421400D8021C /* WidgetFetchWidget.swift */,
-				49B80FB325C3421400D8021C /* WidgetFetchWidget.intentdefinition */,
-				49B80FB425C3421400D8021C /* Assets.xcassets */,
-				49B80FB625C3421400D8021C /* Info.plist */,
-				49B80FB725C3421400D8021C /* WidgetFetchWidget.entitlements */,
-			);
-			path = WidgetFetchWidget;
-			sourceTree = "<group>";
-		};
 		49B80FC325C3421D00D8021C /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,37 +265,6 @@
 				49B80FCA25C3424B00D8021C /* ASCIIEditor */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		49B80FC425C3422400D8021C /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				49B80FC925C3424300D8021C /* WidgetLarge */,
-				49B80FC825C3423D00D8021C /* WidgetMedium */,
-				49B80FC525C3422D00D8021C /* WidgetSmall */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		49B80FC525C3422D00D8021C /* WidgetSmall */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WidgetSmall;
-			sourceTree = "<group>";
-		};
-		49B80FC825C3423D00D8021C /* WidgetMedium */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WidgetMedium;
-			sourceTree = "<group>";
-		};
-		49B80FC925C3424300D8021C /* WidgetLarge */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WidgetLarge;
 			sourceTree = "<group>";
 		};
 		49B80FCA25C3424B00D8021C /* ASCIIEditor */ = {
@@ -318,9 +294,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49B80F9125C3416B00D8021C /* WidgetFetch */ = {
+		494DBDBB25C70FA900A2824E /* WidgetFetchiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49B80FA225C3416B00D8021C /* Build configuration list for PBXNativeTarget "WidgetFetch" */;
+			buildConfigurationList = 494DBDC825C70FA900A2824E /* Build configuration list for PBXNativeTarget "WidgetFetchiOS" */;
+			buildPhases = (
+				494DBDB825C70FA900A2824E /* Sources */,
+				494DBDB925C70FA900A2824E /* Frameworks */,
+				494DBDBA25C70FA900A2824E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetFetchiOS;
+			productName = WidgetFetchiOS;
+			productReference = 494DBDBC25C70FA900A2824E /* WidgetFetchiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49B80F9125C3416B00D8021C /* WidgetFetchMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B80FA225C3416B00D8021C /* Build configuration list for PBXNativeTarget "WidgetFetchMacOS" */;
 			buildPhases = (
 				49B80F8E25C3416B00D8021C /* Sources */,
 				49B80F8F25C3416B00D8021C /* Frameworks */,
@@ -330,29 +323,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				49B80FBB25C3421400D8021C /* PBXTargetDependency */,
 			);
-			name = WidgetFetch;
+			name = WidgetFetchMacOS;
 			productName = WidgetFetch;
-			productReference = 49B80F9225C3416B00D8021C /* WidgetFetch.app */;
+			productReference = 49B80F9225C3416B00D8021C /* WidgetFetchMacOS.app */;
 			productType = "com.apple.product-type.application";
-		};
-		49B80FA925C3421400D8021C /* WidgetFetchWidgetExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 49B80FBD25C3421400D8021C /* Build configuration list for PBXNativeTarget "WidgetFetchWidgetExtension" */;
-			buildPhases = (
-				49B80FA625C3421400D8021C /* Sources */,
-				49B80FA725C3421400D8021C /* Frameworks */,
-				49B80FA825C3421400D8021C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WidgetFetchWidgetExtension;
-			productName = WidgetFetchWidgetExtension;
-			productReference = 49B80FAA25C3421400D8021C /* WidgetFetchWidgetExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -363,10 +338,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					49B80F9125C3416B00D8021C = {
+					494DBDBB25C70FA900A2824E = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					49B80FA925C3421400D8021C = {
+					49B80F9125C3416B00D8021C = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -384,13 +359,22 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49B80F9125C3416B00D8021C /* WidgetFetch */,
-				49B80FA925C3421400D8021C /* WidgetFetchWidgetExtension */,
+				49B80F9125C3416B00D8021C /* WidgetFetchMacOS */,
+				494DBDBB25C70FA900A2824E /* WidgetFetchiOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		494DBDBA25C70FA900A2824E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494DBDC625C70FA900A2824E /* Preview Assets.xcassets in Resources */,
+				494DBDC325C70FA900A2824E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49B80F9025C3416B00D8021C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,17 +384,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49B80FA825C3421400D8021C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49B80FB525C3421400D8021C /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		494DBDB825C70FA900A2824E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AF722625C7125F00D2B8BE /* DarkMode.theme.swift in Sources */,
+				49AF722325C7125900D2B8BE /* Binding.extensions.swift in Sources */,
+				49AF722F25C7126C00D2B8BE /* Options.observable.swift in Sources */,
+				49AF724125C7128100D2B8BE /* CustomToggle.styles.swift in Sources */,
+				49AF723E25C7127F00D2B8BE /* CustomToggle.swift in Sources */,
+				49AF723525C7127300D2B8BE /* CustomPicker.previews.swift in Sources */,
+				49AF722925C7126500D2B8BE /* Options.previews.swift in Sources */,
+				494DBDC125C70FA900A2824E /* ContentView.swift in Sources */,
+				494DBDBF25C70FA900A2824E /* WidgetFetchiOSApp.swift in Sources */,
+				49AF723825C7127600D2B8BE /* CustomPicker.swift in Sources */,
+				49AF722025C7125200D2B8BE /* Color.extensions.swift in Sources */,
+				49AF723B25C7127B00D2B8BE /* CustomToggle.previews.swift in Sources */,
+				49AF722C25C7126800D2B8BE /* Options.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49B80F8E25C3416B00D8021C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,7 +414,6 @@
 				49B80FD825C3443700D8021C /* Options.swift in Sources */,
 				4915561C25C4D9A0004813BD /* CustomToggle.swift in Sources */,
 				49B80F9825C3416B00D8021C /* ContentView.swift in Sources */,
-				4915562F25C4DF5D004813BD /* CustomPicker.styles.swift in Sources */,
 				4915563325C4E041004813BD /* CustomPicker.previews.swift in Sources */,
 				4915563725C4E07A004813BD /* CustomToggle.previews.swift in Sources */,
 				4915562525C4DAA1004813BD /* CustomToggle.styles.swift in Sources */,
@@ -426,33 +421,60 @@
 				49B80FDE25C3460300D8021C /* Options.observable.swift in Sources */,
 				4915563C25C4E156004813BD /* Options.previews.swift in Sources */,
 				4950ABA825C4FA7A00087E18 /* DarkMode.theme.swift in Sources */,
-				49B80FB925C3421400D8021C /* WidgetFetchWidget.intentdefinition in Sources */,
 				4915564425C4E1D4004813BD /* Binding.extensions.swift in Sources */,
 				4915562B25C4DE2D004813BD /* CustomPicker.swift in Sources */,
 				49B80F9625C3416B00D8021C /* WidgetFetchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49B80FA625C3421400D8021C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49B80FB225C3421400D8021C /* WidgetFetchWidget.swift in Sources */,
-				49B80FB825C3421400D8021C /* WidgetFetchWidget.intentdefinition in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		49B80FBB25C3421400D8021C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 49B80FA925C3421400D8021C /* WidgetFetchWidgetExtension */;
-			targetProxy = 49B80FBA25C3421400D8021C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		494DBDC925C70FA900A2824E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WidgetFetchiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WidgetFetchiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PooleTyler.WidgetFetchiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		494DBDCA25C70FA900A2824E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WidgetFetchiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WidgetFetchiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PooleTyler.WidgetFetchiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		49B80FA025C3416B00D8021C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -571,21 +593,20 @@
 		49B80FA325C3416B00D8021C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WidgetFetch/WidgetFetch.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WidgetFetchMacOS/WidgetFetch.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"WidgetFetch/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "WidgetFetchMacOS/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WidgetFetch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WidgetFetchMacOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = PooleTyler.WidgetFetch;
+				PRODUCT_BUNDLE_IDENTIFIER = PooleTyler.WidgetFetchMacOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -594,64 +615,21 @@
 		49B80FA425C3416B00D8021C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WidgetFetch/WidgetFetch.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WidgetFetchMacOS/WidgetFetch.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"WidgetFetch/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "WidgetFetchMacOS/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WidgetFetch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WidgetFetchMacOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = PooleTyler.WidgetFetch;
+				PRODUCT_BUNDLE_IDENTIFIER = PooleTyler.WidgetFetchMacOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		49B80FBE25C3421400D8021C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = WidgetFetchWidget/WidgetFetchWidget.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WidgetFetchWidget/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = PooleTyler.WidgetFetch.WidgetFetchWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		49B80FBF25C3421400D8021C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = WidgetFetchWidget/WidgetFetchWidget.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WidgetFetchWidget/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = PooleTyler.WidgetFetch.WidgetFetchWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -659,6 +637,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		494DBDC825C70FA900A2824E /* Build configuration list for PBXNativeTarget "WidgetFetchiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494DBDC925C70FA900A2824E /* Debug */,
+				494DBDCA25C70FA900A2824E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		49B80F8D25C3416B00D8021C /* Build configuration list for PBXProject "WidgetFetch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -668,20 +655,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49B80FA225C3416B00D8021C /* Build configuration list for PBXNativeTarget "WidgetFetch" */ = {
+		49B80FA225C3416B00D8021C /* Build configuration list for PBXNativeTarget "WidgetFetchMacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49B80FA325C3416B00D8021C /* Debug */,
 				49B80FA425C3416B00D8021C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		49B80FBD25C3421400D8021C /* Build configuration list for PBXNativeTarget "WidgetFetchWidgetExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49B80FBE25C3421400D8021C /* Debug */,
-				49B80FBF25C3421400D8021C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
