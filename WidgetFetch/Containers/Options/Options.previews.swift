@@ -13,4 +13,3 @@ struct Options_Previews: PreviewProvider {
             .environmentObject(OptionsObservableObject())
     }
 }
-

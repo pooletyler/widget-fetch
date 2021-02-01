@@ -9,6 +9,8 @@ import SwiftUI
 
 struct Options: View {
     @EnvironmentObject var optionsObservableObject: OptionsObservableObject
+    @State var image: UIImage?
+    @State var showingPicker: Bool = true
     
     @ViewBuilder
     var body: some View {
@@ -40,7 +42,7 @@ struct Options: View {
                 if optionsObservableObject.imageSelections["ASCII"] == true {
                     Text("ASCII PICKER WOULD GO HERE")
                 } else {
-                    Text("IMAGE PICKER WOULD GO HERE")
+                    ImagePicker(image: $image, showingPicker: $showingPicker)
                 }
                 
                 ForEach(optionsObservableObject.optionsRange, id:\.self) { option in

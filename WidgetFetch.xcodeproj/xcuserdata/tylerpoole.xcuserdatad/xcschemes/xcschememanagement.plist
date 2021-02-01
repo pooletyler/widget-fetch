@@ -7,7 +7,7 @@
 		<key>WidgetFetch.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>WidgetFetchMacOS.xcscheme_^#shared#^_</key>
 		<dict>
@@ -24,10 +24,18 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>WidgetFetchiOS.xcscheme_^#shared#^_</key>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>494DBDBB25C70FA900A2824E</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49BF801525C8BC1600FB4803</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

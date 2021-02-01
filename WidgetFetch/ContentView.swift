@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  WidgetFetchMacOS
+//  WidgetFetch
 //
-//  Created by Tyler Poole on 1/28/21.
+//  Created by Tyler Poole on 1/30/21.
 //
 
 import SwiftUI
