@@ -12,6 +12,6 @@ struct ImagePicker_Previews: PreviewProvider {
     @State static var showingPicker: Bool = true
     
     static var previews: some View {
-        ImagePicker(image: $image, showingPicker: $showingPicker)
+        ImagePicker(image: $image, showingImagePicker: $showingPicker, onButtonTap: { return }, onSheetDismiss: { return })
     }
 }

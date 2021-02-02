@@ -25,7 +25,7 @@ struct CustomPicker: View {
                 }
             }
         }
-        .frame(width: 400, height: 150)
+        .frame(width: 400, height: 100)
     }
 }
 

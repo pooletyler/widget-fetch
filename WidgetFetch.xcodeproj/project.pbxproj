@@ -21,6 +21,10 @@
 		4922AFDE25C8BDF300A2BD20 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49301DB025C8945B0089EE76 /* ImagePicker.swift */; };
 		4922AFE025C8BDF600A2BD20 /* ImagePicker.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49301DB625C894E50089EE76 /* ImagePicker.previews.swift */; };
 		4922AFE225C8BDF700A2BD20 /* ImagePicker.classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49301DD325C897180089EE76 /* ImagePicker.classes.swift */; };
+		4922AFE625C8BEF800A2BD20 /* ImagePicker.wrapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922AFE525C8BEF800A2BD20 /* ImagePicker.wrapped.swift */; };
+		4922AFEE25C8F0C800A2BD20 /* CustomIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922AFED25C8F0C800A2BD20 /* CustomIconButton.swift */; };
+		4922AFF225C8F0D600A2BD20 /* CustomIconButton.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922AFF125C8F0D600A2BD20 /* CustomIconButton.previews.swift */; };
+		4922AFF525C8F23900A2BD20 /* CustomIconButton.styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922AFF425C8F23900A2BD20 /* CustomIconButton.styles.swift */; };
 		49BF801925C8BC1600FB4803 /* WidgetFetchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF801825C8BC1600FB4803 /* WidgetFetchApp.swift */; };
 		49BF801B25C8BC1600FB4803 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF801A25C8BC1600FB4803 /* ContentView.swift */; };
 		49BF801D25C8BC1600FB4803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BF801C25C8BC1600FB4803 /* Assets.xcassets */; };
@@ -35,6 +39,10 @@
 		4915563625C4E07A004813BD /* CustomToggle.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.previews.swift; sourceTree = "<group>"; };
 		4915563B25C4E156004813BD /* Options.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.previews.swift; sourceTree = "<group>"; };
 		4915564325C4E1D4004813BD /* Binding.extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.extensions.swift; sourceTree = "<group>"; };
+		4922AFE525C8BEF800A2BD20 /* ImagePicker.wrapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.wrapped.swift; sourceTree = "<group>"; };
+		4922AFED25C8F0C800A2BD20 /* CustomIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIconButton.swift; sourceTree = "<group>"; };
+		4922AFF125C8F0D600A2BD20 /* CustomIconButton.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIconButton.previews.swift; sourceTree = "<group>"; };
+		4922AFF425C8F23900A2BD20 /* CustomIconButton.styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIconButton.styles.swift; sourceTree = "<group>"; };
 		49301DB025C8945B0089EE76 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		49301DB625C894E50089EE76 /* ImagePicker.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.previews.swift; sourceTree = "<group>"; };
 		49301DD325C897180089EE76 /* ImagePicker.classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.classes.swift; sourceTree = "<group>"; };
@@ -116,6 +124,24 @@
 			path = Binding;
 			sourceTree = "<group>";
 		};
+		4922AFE425C8BEDF00A2BD20 /* Wrapped */ = {
+			isa = PBXGroup;
+			children = (
+				4922AFE525C8BEF800A2BD20 /* ImagePicker.wrapped.swift */,
+			);
+			path = Wrapped;
+			sourceTree = "<group>";
+		};
+		4922AFEC25C8F0AA00A2BD20 /* CustomIconButton */ = {
+			isa = PBXGroup;
+			children = (
+				4922AFED25C8F0C800A2BD20 /* CustomIconButton.swift */,
+				4922AFF125C8F0D600A2BD20 /* CustomIconButton.previews.swift */,
+				4922AFF425C8F23900A2BD20 /* CustomIconButton.styles.swift */,
+			);
+			path = CustomIconButton;
+			sourceTree = "<group>";
+		};
 		49301DD225C896FB0089EE76 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +204,7 @@
 		49B80FC325C3421D00D8021C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				4922AFEC25C8F0AA00A2BD20 /* CustomIconButton */,
 				4915561A25C4D95B004813BD /* CustomPicker */,
 				4915561925C4D942004813BD /* CustomToggle */,
 				49B80FCB25C3425300D8021C /* ImagePicker */,
@@ -196,6 +223,7 @@
 		49B80FCB25C3425300D8021C /* ImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				4922AFE425C8BEDF00A2BD20 /* Wrapped */,
 				49301DB025C8945B0089EE76 /* ImagePicker.swift */,
 				49301DB625C894E50089EE76 /* ImagePicker.previews.swift */,
 				49301DD225C896FB0089EE76 /* Classes */,
@@ -314,11 +342,15 @@
 				4922AFDE25C8BDF300A2BD20 /* ImagePicker.swift in Sources */,
 				4922AFDA25C8BDEF00A2BD20 /* CustomToggle.styles.swift in Sources */,
 				4922AFCE25C8BDDA00A2BD20 /* Color.extensions.swift in Sources */,
+				4922AFF225C8F0D600A2BD20 /* CustomIconButton.previews.swift in Sources */,
 				4922AFCC25C8BDD300A2BD20 /* Options.observable.swift in Sources */,
 				4922AFE025C8BDF600A2BD20 /* ImagePicker.previews.swift in Sources */,
 				4922AFD625C8BDEB00A2BD20 /* CustomPicker.previews.swift in Sources */,
 				49BF801925C8BC1600FB4803 /* WidgetFetchApp.swift in Sources */,
+				4922AFE625C8BEF800A2BD20 /* ImagePicker.wrapped.swift in Sources */,
 				4922AFDC25C8BDF100A2BD20 /* CustomToggle.previews.swift in Sources */,
+				4922AFF525C8F23900A2BD20 /* CustomIconButton.styles.swift in Sources */,
+				4922AFEE25C8F0C800A2BD20 /* CustomIconButton.swift in Sources */,
 				4922AFD025C8BDDD00A2BD20 /* Binding.extensions.swift in Sources */,
 				4922AFC825C8BDCB00A2BD20 /* Options.previews.swift in Sources */,
 				4922AFD225C8BDE200A2BD20 /* DarkMode.theme.swift in Sources */,

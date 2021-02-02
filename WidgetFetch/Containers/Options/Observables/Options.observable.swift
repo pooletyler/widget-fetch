@@ -1,4 +1,5 @@
 import Combine
+import UIKit
 
 final class OptionsObservableObject: ObservableObject {
     let IMAGE_STRING : String = "Image"
@@ -20,6 +21,9 @@ final class OptionsObservableObject: ObservableObject {
     @Published var optionsRange: [String]
     @Published var optionsIcons: [String : String]
     @Published var optionsSelections: [String : Bool]
+    
+    @Published var image: UIImage?
+    @Published var showingImagePicker: Bool
     
     init() {
         self.imageOptionsRange = [ASCII_STRING, IMAGE_STRING]
@@ -66,6 +70,8 @@ final class OptionsObservableObject: ObservableObject {
             MEMORY_STRING : true,
             SWATCH_STRING : true
         ]
+        
+        self.showingImagePicker = false
     }
 }
 
