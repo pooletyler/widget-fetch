@@ -20,11 +20,11 @@
 		4922AFDC25C8BDF100A2BD20 /* CustomToggle.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915563625C4E07A004813BD /* CustomToggle.previews.swift */; };
 		4922AFDE25C8BDF300A2BD20 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49301DB025C8945B0089EE76 /* ImagePicker.swift */; };
 		4922AFE025C8BDF600A2BD20 /* ImagePicker.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49301DB625C894E50089EE76 /* ImagePicker.previews.swift */; };
-		4922AFE225C8BDF700A2BD20 /* ImagePicker.classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49301DD325C897180089EE76 /* ImagePicker.classes.swift */; };
 		4922AFE625C8BEF800A2BD20 /* ImagePicker.wrapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922AFE525C8BEF800A2BD20 /* ImagePicker.wrapped.swift */; };
 		4922AFEE25C8F0C800A2BD20 /* CustomIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922AFED25C8F0C800A2BD20 /* CustomIconButton.swift */; };
 		4922AFF225C8F0D600A2BD20 /* CustomIconButton.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922AFF125C8F0D600A2BD20 /* CustomIconButton.previews.swift */; };
 		4922AFF525C8F23900A2BD20 /* CustomIconButton.styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922AFF425C8F23900A2BD20 /* CustomIconButton.styles.swift */; };
+		498047A125CB121000E14C6F /* ImagePicker.classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498047A025CB121000E14C6F /* ImagePicker.classes.swift */; };
 		49BF801925C8BC1600FB4803 /* WidgetFetchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF801825C8BC1600FB4803 /* WidgetFetchApp.swift */; };
 		49BF801B25C8BC1600FB4803 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF801A25C8BC1600FB4803 /* ContentView.swift */; };
 		49BF801D25C8BC1600FB4803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BF801C25C8BC1600FB4803 /* Assets.xcassets */; };
@@ -45,9 +45,9 @@
 		4922AFF425C8F23900A2BD20 /* CustomIconButton.styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIconButton.styles.swift; sourceTree = "<group>"; };
 		49301DB025C8945B0089EE76 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		49301DB625C894E50089EE76 /* ImagePicker.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.previews.swift; sourceTree = "<group>"; };
-		49301DD325C897180089EE76 /* ImagePicker.classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.classes.swift; sourceTree = "<group>"; };
 		4950ABA725C4FA7A00087E18 /* DarkMode.theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode.theme.swift; sourceTree = "<group>"; };
 		4950ABAE25C4FD8000087E18 /* Color.extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.extensions.swift; sourceTree = "<group>"; };
+		498047A025CB121000E14C6F /* ImagePicker.classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.classes.swift; sourceTree = "<group>"; };
 		49B80FAC25C3421400D8021C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		49B80FAE25C3421400D8021C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		49B80FD725C3443700D8021C /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
@@ -142,15 +142,6 @@
 			path = CustomIconButton;
 			sourceTree = "<group>";
 		};
-		49301DD225C896FB0089EE76 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				49301DD325C897180089EE76 /* ImagePicker.classes.swift */,
-			);
-			name = Classes;
-			path = ../../../WidgetFetchiOS/Components/ImagePicker/Classes;
-			sourceTree = "<group>";
-		};
 		4950ABA525C4FA5A00087E18 /* Themes */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +164,14 @@
 				4950ABAE25C4FD8000087E18 /* Color.extensions.swift */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		4980479F25CB11FD00E14C6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				498047A025CB121000E14C6F /* ImagePicker.classes.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		49B80F8925C3416B00D8021C = {
@@ -223,10 +222,10 @@
 		49B80FCB25C3425300D8021C /* ImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				4980479F25CB11FD00E14C6F /* Classes */,
 				4922AFE425C8BEDF00A2BD20 /* Wrapped */,
 				49301DB025C8945B0089EE76 /* ImagePicker.swift */,
 				49301DB625C894E50089EE76 /* ImagePicker.previews.swift */,
-				49301DD225C896FB0089EE76 /* Classes */,
 			);
 			path = ImagePicker;
 			sourceTree = "<group>";
@@ -336,7 +335,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4922AFCA25C8BDD000A2BD20 /* Options.swift in Sources */,
-				4922AFE225C8BDF700A2BD20 /* ImagePicker.classes.swift in Sources */,
 				4922AFD825C8BDED00A2BD20 /* CustomToggle.swift in Sources */,
 				49BF801B25C8BC1600FB4803 /* ContentView.swift in Sources */,
 				4922AFDE25C8BDF300A2BD20 /* ImagePicker.swift in Sources */,
@@ -349,6 +347,7 @@
 				49BF801925C8BC1600FB4803 /* WidgetFetchApp.swift in Sources */,
 				4922AFE625C8BEF800A2BD20 /* ImagePicker.wrapped.swift in Sources */,
 				4922AFDC25C8BDF100A2BD20 /* CustomToggle.previews.swift in Sources */,
+				498047A125CB121000E14C6F /* ImagePicker.classes.swift in Sources */,
 				4922AFF525C8F23900A2BD20 /* CustomIconButton.styles.swift in Sources */,
 				4922AFEE25C8F0C800A2BD20 /* CustomIconButton.swift in Sources */,
 				4922AFD025C8BDDD00A2BD20 /* Binding.extensions.swift in Sources */,
