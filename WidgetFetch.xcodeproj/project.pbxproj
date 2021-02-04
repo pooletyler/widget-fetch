@@ -25,6 +25,11 @@
 		4922AFF225C8F0D600A2BD20 /* CustomIconButton.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922AFF125C8F0D600A2BD20 /* CustomIconButton.previews.swift */; };
 		4922AFF525C8F23900A2BD20 /* CustomIconButton.styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922AFF425C8F23900A2BD20 /* CustomIconButton.styles.swift */; };
 		498047A125CB121000E14C6F /* ImagePicker.classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498047A025CB121000E14C6F /* ImagePicker.classes.swift */; };
+		498047A425CB136700E14C6F /* ASCIIViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498047A325CB136700E14C6F /* ASCIIViewer.swift */; };
+		498047A725CB137400E14C6F /* ASCIIViewer.previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498047A625CB137400E14C6F /* ASCIIViewer.previews.swift */; };
+		498047B925CB2DFD00E14C6F /* UIImage.extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498047B825CB2DFD00E14C6F /* UIImage.extensions.swift */; };
+		498047BE25CB2F1300E14C6F /* Options.classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498047BD25CB2F1300E14C6F /* Options.classes.swift */; };
+		498047E025CB8B1600E14C6F /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 498047DF25CB8B1600E14C6F /* apple.jpg */; };
 		49BF801925C8BC1600FB4803 /* WidgetFetchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF801825C8BC1600FB4803 /* WidgetFetchApp.swift */; };
 		49BF801B25C8BC1600FB4803 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF801A25C8BC1600FB4803 /* ContentView.swift */; };
 		49BF801D25C8BC1600FB4803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BF801C25C8BC1600FB4803 /* Assets.xcassets */; };
@@ -48,6 +53,11 @@
 		4950ABA725C4FA7A00087E18 /* DarkMode.theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode.theme.swift; sourceTree = "<group>"; };
 		4950ABAE25C4FD8000087E18 /* Color.extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.extensions.swift; sourceTree = "<group>"; };
 		498047A025CB121000E14C6F /* ImagePicker.classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.classes.swift; sourceTree = "<group>"; };
+		498047A325CB136700E14C6F /* ASCIIViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCIIViewer.swift; sourceTree = "<group>"; };
+		498047A625CB137400E14C6F /* ASCIIViewer.previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCIIViewer.previews.swift; sourceTree = "<group>"; };
+		498047B825CB2DFD00E14C6F /* UIImage.extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.extensions.swift; sourceTree = "<group>"; };
+		498047BD25CB2F1300E14C6F /* Options.classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.classes.swift; sourceTree = "<group>"; };
+		498047DF25CB8B1600E14C6F /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
 		49B80FAC25C3421400D8021C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		49B80FAE25C3421400D8021C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		49B80FD725C3443700D8021C /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
@@ -110,6 +120,7 @@
 		4915564125C4E1AC004813BD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				498047B725CB2DEC00E14C6F /* UIImage */,
 				4950ABAD25C4FD6E00087E18 /* Color */,
 				4915564225C4E1C4004813BD /* Binding */,
 			);
@@ -174,6 +185,22 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		498047B725CB2DEC00E14C6F /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				498047B825CB2DFD00E14C6F /* UIImage.extensions.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		498047BC25CB2EFB00E14C6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				498047BD25CB2F1300E14C6F /* Options.classes.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		49B80F8925C3416B00D8021C = {
 			isa = PBXGroup;
 			children = (
@@ -207,16 +234,18 @@
 				4915561A25C4D95B004813BD /* CustomPicker */,
 				4915561925C4D942004813BD /* CustomToggle */,
 				49B80FCB25C3425300D8021C /* ImagePicker */,
-				49B80FCA25C3424B00D8021C /* ASCIIEditor */,
+				49B80FCA25C3424B00D8021C /* ASCIIViewer */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		49B80FCA25C3424B00D8021C /* ASCIIEditor */ = {
+		49B80FCA25C3424B00D8021C /* ASCIIViewer */ = {
 			isa = PBXGroup;
 			children = (
+				498047A325CB136700E14C6F /* ASCIIViewer.swift */,
+				498047A625CB137400E14C6F /* ASCIIViewer.previews.swift */,
 			);
-			path = ASCIIEditor;
+			path = ASCIIViewer;
 			sourceTree = "<group>";
 		};
 		49B80FCB25C3425300D8021C /* ImagePicker */ = {
@@ -233,8 +262,10 @@
 		49B80FD625C3441500D8021C /* Options */ = {
 			isa = PBXGroup;
 			children = (
+				498047BC25CB2EFB00E14C6F /* Classes */,
 				4915563A25C4E112004813BD /* Observables */,
 				49B80FD725C3443700D8021C /* Options.swift */,
+				498047DF25CB8B1600E14C6F /* apple.jpg */,
 				4915563B25C4E156004813BD /* Options.previews.swift */,
 			);
 			path = Options;
@@ -323,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49BF802025C8BC1600FB4803 /* Preview Assets.xcassets in Resources */,
+				498047E025CB8B1600E14C6F /* apple.jpg in Resources */,
 				49BF801D25C8BC1600FB4803 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,10 +374,14 @@
 				4922AFCE25C8BDDA00A2BD20 /* Color.extensions.swift in Sources */,
 				4922AFF225C8F0D600A2BD20 /* CustomIconButton.previews.swift in Sources */,
 				4922AFCC25C8BDD300A2BD20 /* Options.observable.swift in Sources */,
+				498047BE25CB2F1300E14C6F /* Options.classes.swift in Sources */,
 				4922AFE025C8BDF600A2BD20 /* ImagePicker.previews.swift in Sources */,
+				498047B925CB2DFD00E14C6F /* UIImage.extensions.swift in Sources */,
 				4922AFD625C8BDEB00A2BD20 /* CustomPicker.previews.swift in Sources */,
+				498047A725CB137400E14C6F /* ASCIIViewer.previews.swift in Sources */,
 				49BF801925C8BC1600FB4803 /* WidgetFetchApp.swift in Sources */,
 				4922AFE625C8BEF800A2BD20 /* ImagePicker.wrapped.swift in Sources */,
+				498047A425CB136700E14C6F /* ASCIIViewer.swift in Sources */,
 				4922AFDC25C8BDF100A2BD20 /* CustomToggle.previews.swift in Sources */,
 				498047A125CB121000E14C6F /* ImagePicker.classes.swift in Sources */,
 				4922AFF525C8F23900A2BD20 /* CustomIconButton.styles.swift in Sources */,
